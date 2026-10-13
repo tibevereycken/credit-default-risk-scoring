@@ -1,0 +1,16 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Echte bankdata strikt uitsluiten!
+data/raw/*
+*.csv
+*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
